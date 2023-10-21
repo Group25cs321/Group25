@@ -6,6 +6,6 @@ public class Reviewer {
     @Test
     public void toStoreInfoTest() {
         Review review = new Review();
-        assertEquals(review.toStoreInfo(),"Information stored successfully");
+        assertEquals(review.toStoreInfo(),"Information stored Successfully");
     }
 }
