@@ -10,9 +10,7 @@ public class Reviewer {
         //New Reviewer object of reviewer class/
         Reviewer reviewer = new Reviewer()
 
-
         //Returns string if reviewer validated request      
-
-        assertEquals(Reviewer.validateRequest(), "Reviewer has successfully validated reuqest");
+        assertEquals(Reviewer.confirmValid(), "Reviewer has successfully validated reuqest");
     }
 }
