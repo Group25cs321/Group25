@@ -6,7 +6,7 @@ public class Reviewer {
     @Test
     public void toApproverTest() {
         Review review = new Review();
-        assertEquals("Review sent to approver for further processing", review.toApprover());
+        assertEquals(review.toApprover(),"Review sent to approver for further processing");
     }
 }
 
